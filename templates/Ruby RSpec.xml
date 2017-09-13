@@ -1,0 +1,7 @@
+<templateSet group="Ruby RSpec">
+  <template name="saos" value="save_and_open_screenshot" description="Save and open screenshot" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+</templateSet>

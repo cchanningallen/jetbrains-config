@@ -1,0 +1,59 @@
+<templateSet group="React">
+  <template name="cx" value="className={this.cxEl('$END$')}" description="add classname block element" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dcx" value="&lt;div className={this.cxEl('$ELEMENT$')}&gt;&#10;  $END$&#10;&lt;/div&gt;" description="div + cxel" toReformat="false" toShortenFQNames="true">
+    <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impc" value="import $COMPONENT$ from 'components/$COMPONENT$';$END$" description="import from components/ dir" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impfr" value="import { $EXPORTS$ } from '$MODULE$';$END$" description="import { ... } from '...'" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPORTS" expression="jsArrayVariable()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impim" value="import { $EXPORTS$ } from 'immutable';$END$" description="import {} from immutable.js" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPORTS" expression="" defaultValue="Map" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impcc" value="import $COMPONENT$ from 'components/clickables/$COMPONENT$';$END$" description="import from components/clickables" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ap" value="$PROP$={$PROP$} $END$" description="add prop" toReformat="false" toShortenFQNames="true">
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impin" value="import { toI18n } from 'util/i18n';$END$" description="import i18n" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impb" value="import Box from 'components/Box';$END$" description="import box" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impt" value="import Text from 'components/Text';$END$" description="import text component" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
