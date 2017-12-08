@@ -9,4 +9,20 @@
       <option name="RUBY" value="true" />
     </context>
   </template>
+  <template name="ethc" value="expect(page).to have_content($END$)" description="expect to have content" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="win" value="within '$sel$' do&#10;  $END$&#10;end" description="within something do something" toReformat="false" toShortenFQNames="true">
+    <variable name="sel" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="ethl" value="expect(page).to have_link($END$)" description="expect to have link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
 </templateSet>
