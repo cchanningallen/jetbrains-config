@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".ruby-version" type="PLAIN_TEXT" />
       <mapping pattern="OwnerMultiStep1Innerjsx" type="PLAIN_TEXT" />
+      <mapping ext="dev" type="PLAIN_TEXT" />
       <mapping ext="rabl" type="Ruby" />
     </extensionMap>
   </component>
