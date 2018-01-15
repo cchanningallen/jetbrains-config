@@ -1148,6 +1148,14 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/awesome_print-1.6.1/lib" />
       </SOURCES>
     </library>
+    <library name="aws-partitions (v1.53.0, rbenv: 2.2.3) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-partitions-1.53.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-partitions-1.53.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk (v2.2.28, rbenv: 2.2.3) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sdk-2.2.28/lib" />
@@ -1204,6 +1212,22 @@
         <root url="file://$USER_HOME$/.gem/ruby/2.2.0/gems/aws-sdk-core-2.9.9/apis" />
       </SOURCES>
     </library>
+    <library name="aws-sdk-core (v3.13.1, rbenv: 2.2.3) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sdk-core-3.13.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sdk-core-3.13.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-opsworks (v1.1.0, rbenv: 2.2.3) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sdk-opsworks-1.1.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sdk-opsworks-1.1.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk-resources (v2.2.28, rbenv: 2.2.3) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sdk-resources-2.2.28/lib" />
@@ -1218,6 +1242,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.gem/ruby/2.2.0/gems/aws-sigv4-1.0.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sigv4 (v1.0.2, rbenv: 2.2.3) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sigv4-1.0.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/aws-sigv4-1.0.2/lib" />
       </SOURCES>
     </library>
     <library name="axiom-types (v0.1.1, rbenv: 2.2.3) [gem]">
