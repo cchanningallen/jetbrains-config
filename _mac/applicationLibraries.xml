@@ -10086,6 +10086,16 @@
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/mailcatcher-0.6.5/public" />
       </SOURCES>
     </library>
+    <library name="makara (v0.3.10, rbenv: 2.2.7) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/makara-0.3.10/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/makara-0.3.10/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/makara-0.3.10/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/makara-0.3.10/gemfiles" />
+      </SOURCES>
+    </library>
     <library name="makara (v0.3.9, rbenv: 2.2.7) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/makara-0.3.9/lib" />
@@ -16224,6 +16234,16 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/sinatra-1.4.8/lib" />
+      </SOURCES>
+    </library>
+    <library name="sinon-rails (v1.15.0, rbenv: 2.2.7) [gem]">
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/sinon-rails-1.15.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/sinon-rails-1.15.0/vendor" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/sinon-rails-1.15.0/lib" />
+        <root url="file://$USER_HOME$/.rbenv/versions/2.2.7/lib/ruby/gems/2.2.0/gems/sinon-rails-1.15.0/vendor" />
       </SOURCES>
     </library>
     <library name="skinny (v0.2.4, rbenv: 2.2.3) [gem]">
