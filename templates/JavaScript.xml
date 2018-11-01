@@ -50,7 +50,7 @@
     <variable name="MODULE_VAR" expression="jsDefineParameter(MODULE_REF)" defaultValue="mod" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="reduxlog" value="const next = store.dispatch&#10;store.dispatch = function dispatchAndLog(action) {&#10;  console.log('dispatching', action)&#10;  let result = next(action)&#10;  console.log('next state', store.getState())&#10;  return result&#10;}" description="redux loggin" toReformat="false" toShortenFQNames="true">
+  <template name="reduxlog" value="const next = store.dispatch&#10;store.dispatch = function dispatchAndLog(action) {&#10;  console.log('dispatching', action)&#10;  let result = next(action)&#10;  console.log('next state', store.getState().toJS())&#10;  return result&#10;}&#10;" description="redux loggin" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
