@@ -61,4 +61,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="impe" value="import { $EXPORTS$ } from 'evergreein-ui';$END$" description="import from evergreen" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPORTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

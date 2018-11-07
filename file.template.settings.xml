@@ -1,7 +1,7 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="Presentational React Component.jsx" reformat="false" live-template-enabled="false" />
+      <template name="Class Component.js" reformat="false" live-template-enabled="false" />
       <template name="React Component SCSS.scss" reformat="false" live-template-enabled="false" />
       <template name="Redux React Component.jsx" reformat="false" live-template-enabled="false" />
     </default_templates>
