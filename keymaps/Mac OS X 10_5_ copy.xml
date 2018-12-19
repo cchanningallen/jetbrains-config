@@ -11,11 +11,7 @@
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift meta add" />
   </action>
-  <action id="ReformatWithPrettierAction" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
-  </action>
-  <action id="Tool_External Tools_Prettier">
-    <keyboard-shortcut first-keystroke="shift meta alt p" />
   </action>
 </keymap>
